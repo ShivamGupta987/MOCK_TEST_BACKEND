@@ -47,7 +47,7 @@ export class MockTestService {
         }
       });
 
-      // Update mock test document with the calculated score
+      
       mockTest.score = score;
       await mockTest.save();
 
