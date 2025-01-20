@@ -15,7 +15,7 @@ export const generateMockTest = async (req: Request, res: Response) => {
     }
   }
 };
-
+// submit mock test
 export const submitMockTest = async (req: Request, res: Response) => {
   try {
     const { mockTestId, answers } = req.body;

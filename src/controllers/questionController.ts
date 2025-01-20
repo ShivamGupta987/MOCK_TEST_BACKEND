@@ -18,7 +18,7 @@ export const createQuestion = async (req: Request, res: Response) => {
         .json({ message: 'Options must be an array with at least two values' });
     }
 
-    // Create and save the question
+    // Create and save the question both
     const question = await Question.create({
       questionText,
       options,
