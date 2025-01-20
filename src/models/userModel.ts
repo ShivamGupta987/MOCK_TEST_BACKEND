@@ -5,7 +5,7 @@ interface IUser extends Document {
   email: string;
   answeredQuestions: Schema.Types.ObjectId[];
 }
-
+// userschema
 const userSchema: Schema = new Schema({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },

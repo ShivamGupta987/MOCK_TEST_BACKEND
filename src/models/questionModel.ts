@@ -6,7 +6,7 @@ interface IQuestion extends Document {
   correctAnswer: string;
   difficultyLevel: 'easy' | 'medium' | 'hard'; 
 }
-
+// question schema
 const questionSchema: Schema = new Schema(
   {
     questionText: { type: String, required: true },
