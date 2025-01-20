@@ -9,7 +9,7 @@ import {
 
 const router: Router = express.Router();
 
-// User routes
+// User routesss
 router.post('/', createUser as express.RequestHandler);
 router.get('/', getAllUsers as express.RequestHandler);
 router.get('/:id', getUserById as express.RequestHandler);
